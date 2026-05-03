@@ -22,24 +22,13 @@
 
 ### 📑 Table of Contents
 
-<table>
-  <tr>
-    <td width="25%" align="right"><strong>🚀 Getting Started</strong></td>
-    <td width="90%"><a href="#-features">Features</a> • <a href="#-architecture">Architecture</a> • <a href="#-quick-start">Quick Start</a></td>
-  </tr>
-  <tr>
-    <td align="right"><strong>🛠️ Technical</strong></td>
-    <td><a href="#-service-matrix">Service Matrix</a> • <a href="#-technology-stack">Tech Stack</a> • <a href="#-project-structure">Structure</a></td>
-  </tr>
-  <tr>
-    <td align="right"><strong>⚙️ Operations</strong></td>
-    <td><a href="#-configuration">Configuration</a> • <a href="#-monitoring">Monitoring</a></td>
-  </tr>
-  <tr>
-    <td align="right"><strong>🤝 Community</strong></td>
-    <td><a href="#-contributing">Contributing</a> • <a href="#-license">License</a></td>
-  </tr>
-</table>
+| | |
+|:---|:---|
+| <div align="right"><strong>🚀 Getting Started</strong></div> | <a href="#-features">Features</a> • <a href="#-architecture">Architecture</a> • <a href="#-quick-start">Quick Start</a> |
+| <div align="right"><strong>🛠️ Technical</strong></div> | <a href="#-service-matrix">Service Matrix</a> • <a href="#-technology-stack">Tech Stack</a> • <a href="#-project-structure">Project Structure</a> |
+| <div align="right"><strong>⚙️ Operations</strong></div> | <a href="#-configuration">Configuration</a> • <a href="#-monitoring">Monitoring</a> |
+| <div align="right"><strong>🤝 Community</strong></div> | <a href="#-contributing">Contributing</a> • <a href="#-license">License</a> |
+
 
 
 ---
