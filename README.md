@@ -24,8 +24,8 @@
 
 <table>
   <tr>
-    <td width="20%" align="right"><strong>🚀 Getting Started</strong></td>
-    <td width="80%"><a href="#-features">Features</a> • <a href="#-architecture">Architecture</a> • <a href="#-quick-start">Quick Start</a></td>
+    <td width="25%" align="right"><strong>🚀 Getting Started</strong></td>
+    <td width="90%"><a href="#-features">Features</a> • <a href="#-architecture">Architecture</a> • <a href="#-quick-start">Quick Start</a></td>
   </tr>
   <tr>
     <td align="right"><strong>🛠️ Technical</strong></td>
@@ -167,7 +167,7 @@ Git			Version control
 pip			Package management
 
 ### 📁 Project Structure
-```nexus-cloud-dashboard/
+```abhraka-cloud-dashboard/
 ├── src/
 │   ├── __init__.py
 │   └── monitor.py      	     # Main application
