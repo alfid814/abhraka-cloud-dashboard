@@ -22,15 +22,13 @@
 
 ## 📑 Table of Contents
 
-| | |
-|:---|:---|
-| <div align="right"><strong>🚀 Getting Started</strong></div> | <a href="#-features">Features</a> • <a href="#-architecture">Architecture</a> • <a href="#-quick-start">Quick Start</a> |
-| <div align="right"><strong>🛠️ Technical</strong></div> | <a href="#-service-matrix">Service Matrix</a> • <a href="#-technology-stack">Tech Stack</a> • <a href="#-project-structure">Project Structure</a> |
-| <div align="right"><strong>⚙️ Operations</strong></div> | <a href="#-configuration">Configuration</a> • <a href="#-monitoring">Monitoring</a> |
-| <div align="right"><strong>🤝 Community</strong></div> | <a href="#-contributing">Contributing</a> • <a href="#-license">License</a> |
-
----
-
+| Sections |
+|---|---------|---|---------|
+| 01 | [✨ Features](#-features) | 06 | [📁 Project Structure](#-project-structure) |
+| 02 | [🏗️ Architecture](#-architecture) | 07 | [🔧 Configuration](#-configuration) |
+| 03 | [🚀 Quick Start](#-quick-start) | 08 | [📈 Monitoring](#-monitoring) |
+| 04 | [📊 Service Matrix](#-service-matrix) | 09 | [🤝 Contributing](#-contributing) |
+| 05 | [🛠️ Technology Stack](#-technology-stack) | 10 | [📄 License](#-license) |
 ---
 
 ### 🎯 Features
