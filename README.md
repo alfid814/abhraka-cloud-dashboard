@@ -108,7 +108,7 @@ http://localhost:5000
 ```
 
 
-### 🖥️ Dashboard Preview
+## 🖥️ Dashboard Preview
 
 ![Abhraka Cloud Dashboard](docs/screenshot/dashboard-main.png)
 
@@ -116,20 +116,20 @@ http://localhost:5000
 
 ---
 
-### 📊 Service Matrix
+## 📊 Service Matrix
 Berikut adalah 10 layanan AWS yang telah diimplementasikan dalam dashboard ini:
 
-#	Service	Category		Operations		Status
-1.	S3				Storage			Upload files, List buckets		✅
-2.	API Gateway			Networking		Create REST APIs, Test endpoints	✅
-3.	DynamoDB			Database		Create tables, Put items, Scan		✅
-4.	SQS				Messaging		Create queues, Send messages		✅
+###	Service	Category		Operations		Status
+1.	S3				Storage			Upload files, List buckets		              ✅
+2.	API Gateway			Networking		Create REST APIs, Test endpoints	  ✅
+3.	DynamoDB			Database		Create tables, Put items, Scan		      ✅
+4.	SQS				Messaging		Create queues, Send messages		            ✅
 5.	CloudWatch			Observability		Create log groups, View streams		✅
 6.	Secrets Manager			Security		Store secrets, Retrieve values		✅
-7.	SNS				Messaging		Create topics, Publish notifications	✅
-8.	Lambda				Compute			Create functions, Invoke		✅
-9.	Kinesis				Streaming		Create streams, Put records		✅
-10.	SES				Email			Send simulated emails			✅
+7.	SNS				Messaging		Create topics, Publish notifications	      ✅
+8.	Lambda				Compute			Create functions, Invoke		            ✅
+9.	Kinesis				Streaming		Create streams, Put records		          ✅
+10.	SES				Email			Send simulated emails			                    ✅
 
 ## 🚩 Service Status Legend
 - Icon	Meaning
@@ -184,26 +184,26 @@ pip			Package management
 Environment Variables
 Create a .env file:
 
-## LocalStack Configuration
+### LocalStack Configuration
 ```
 LOCALSTACK_ENDPOINT=http://localhost:4566
 LOCALSTACK_AUTH_TOKEN=your-token-here
 AWS_REGION=us-east-1
 ```
-## Dashboard Configuration
+### Dashboard Configuration
 ```
 DASHBOARD_PORT=5000
 DASHBOARD_HOST=0.0.0.0
 REFRESH_INTERVAL=15
 ```
 
-## Debug Mode
+### Debug Mode
 ```
 DEBUG=false
 ```
 
-# 🌤  LocalStack Service Configuration
-## docker-compose.yml
+## 🌤  LocalStack Service Configuration
+### docker-compose.yml
 ```
 version: '3.8'
 services:
