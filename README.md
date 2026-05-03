@@ -22,20 +22,13 @@
 
 ## 📑 Table of Contents
 
-<p align="center">
-  <a href="#-features"><img src="https://img.shields.io/badge/Features-✨-8A2BE2?style=flat-square"></a>
-  <a href="#-architecture"><img src="https://img.shields.io/badge/Architecture-🏗️-FF9900?style=flat-square"></a>
-  <a href="#-quick-start"><img src="https://img.shields.io/badge/Quick_Start-🚀-3776AB?style=flat-square"></a>
-  <a href="#-service-matrix"><img src="https://img.shields.io/badge/Service_Matrix-📊-00FF00?style=flat-square"></a>
-  <br>
-  <a href="#-technology-stack"><img src="https://img.shields.io/badge/Tech_Stack-🛠️-FF0000?style=flat-square"></a>
-  <a href="#-project-structure"><img src="https://img.shields.io/badge/Project_Structure-📁-orange?style=flat-square"></a>
-  <a href="#-configuration"><img src="https://img.shields.io/badge/Configuration-🔧-yellow?style=flat-square"></a>
-  <a href="#-monitoring"><img src="https://img.shields.io/badge/Monitoring-📈-blue?style=flat-square"></a>
-  <br>
-  <a href="#-contributing"><img src="https://img.shields.io/badge/Contributing-🤝-purple?style=flat-square"></a>
-  <a href="#-license"><img src="https://img.shields.io/badge/License-📄-green?style=flat-square"></a>
-</p>
+**Getting Started** &nbsp;→&nbsp; <a href="#-features">Features</a> &nbsp;•&nbsp; <a href="#-architecture">Architecture</a> &nbsp;•&nbsp; <a href="#-quick-start">Quick Start</a>
+
+**Technical** &nbsp;→&nbsp; <a href="#-service-matrix">Service Matrix</a> &nbsp;•&nbsp; <a href="#-technology-stack">Tech Stack</a> &nbsp;•&nbsp; <a href="#-project-structure">Structure</a>
+
+**Operations** &nbsp;→&nbsp; <a href="#-configuration">Configuration</a> &nbsp;•&nbsp; <a href="#-monitoring">Monitoring</a>
+
+**Community** &nbsp;→&nbsp; <a href="#-contributing">Contributing</a> &nbsp;•&nbsp; <a href="#-license">License</a>
 
 ---
 
