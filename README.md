@@ -244,7 +244,7 @@ The dashboard provides real-time monitoring of:
 - Auto-refresh: Updates every 15 seconds
 
 ## Contributing
-We welcome contributions! Please see our [Contributing](CONTRIBUTING.md) [Guide](CONTRIBUTING.md).
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md).
 
 Development Workflow
 1. Fork the repository
