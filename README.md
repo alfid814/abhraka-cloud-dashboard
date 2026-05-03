@@ -156,7 +156,7 @@ Git			Version control
 pip			Package management
 
 ## 📁 Project Structure
-nexus-cloud-dashboard/
+```nexus-cloud-dashboard/
 ├── src/
 │   ├── __init__.py
 │   └── monitor.py      	     # Main application
@@ -178,22 +178,23 @@ nexus-cloud-dashboard/
 ├── Dockerfile                      # Docker configuration
 ├── docker-compose.yml              # Multi-container setup
 └── README.md                       # This file
+```
 
 ## 🔧 Configuration
 Environment Variables
 Create a .env file:
 
-# LocalStack Configuration
+## LocalStack Configuration
 LOCALSTACK_ENDPOINT=http://localhost:4566
 LOCALSTACK_AUTH_TOKEN=your-token-here
 AWS_REGION=us-east-1
 
-# Dashboard Configuration
+## Dashboard Configuration
 DASHBOARD_PORT=5000
 DASHBOARD_HOST=0.0.0.0
 REFRESH_INTERVAL=15
 
-# Debug Mode
+## Debug Mode
 DEBUG=false
 
 ## 🌤  LocalStack Service Configuration
@@ -240,4 +241,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
  - Student		Dimas Alfiansyah (alfid814)
  - Assignment	Implementation of Cloud Emulator with 10 AWS Services
  - Institution	Sultan Agung Islamic University
-<p align="center"> Built with ☁️ and 🐍 by Dimas Alfiansyah <br> <sub>Abhraka Cloud Platform - Infrastructure Control Center</sub> </p>
+<p align="center"> Built with ☁️ and 🌐 by Dimas Alfiansyah <br> <sub>Abhraka Cloud Platform - Infrastructure Control Center</sub> </p>
