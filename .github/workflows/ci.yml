@@ -1,0 +1,50 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Lint with flake8
+      run: |
+        flake8 src/ --count --max-complexity=10 --statistics
+    
+    - name: Test with pytest
+      run: |
+        pytest tests/ -v --cov=src
+
+  build:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Build Docker image
+      run: |
+        docker build -t abhraka-cloud-dashboard .
+        docker tag abhraka-cloud-dashboard ghcr.io/${{ github.repository_owner }}/abhraka-cloud-dashboard:latest
+    
+    - name: Push to GitHub Container Registry
+      run: |
+        echo ${{ secrets.GITHUB_TOKEN }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+        docker push ghcr.io/${{ github.repository_owner }}/abhraka-cloud-dashboard:latest
