@@ -20,25 +20,25 @@
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 <table>
   <tr>
     <td width="50%">
       <ul>
-        <li><a href="#-features">✨ Features</a></li>
-        <li><a href="#-architecture">🏗️ Architecture</a></li>
-        <li><a href="#-quick-start">🚀 Quick Start</a></li>
-        <li><a href="#-service-matrix">📊 Service Matrix</a></li>
-        <li><a href="#-technology-stack">🛠️ Technology Stack</a></li>
+        <li><a href="#-features"> Features</a></li>
+        <li><a href="#-architecture"> Architecture</a></li>
+        <li><a href="#-quick-start"> Quick Start</a></li>
+        <li><a href="#-service-matrix"> Service Matrix</a></li>
+        <li><a href="#-technology-stack"> Technology Stack</a></li>
       </ul>
     </td>
     <td width="50%">
       <ul>
         <li><a href="#-project-structure">📁 Project Structure</a></li>
-        <li><a href="#-configuration">🔧 Configuration</a></li>
-        <li><a href="#-monitoring">📈 Monitoring</a></li>
-        <li><a href="#-contributing">🤝 Contributing</a></li>
+        <li><a href="#-configuration"> Configuration</a></li>
+        <li><a href="#-monitoring"> Monitoring</a></li>
+        <li><a href="#-contributing"> Contributing</a></li>
         <li><a href="#-license">📄 License</a></li>
       </ul>
     </td>
@@ -47,7 +47,7 @@
 
 ---
 
-### 🎯 Features
+## Features
 
 ### Core Capabilities
 
@@ -65,15 +65,15 @@
 
 ### Interactive Dashboard
 
-- ✨ **Glassmorphism UI** with modern design language
-- 🖱️ **Click-to-manage** interface for all services
-- 📊 **Real-time metrics** with auto-refresh (15s interval)
-- 🎨 **Dark theme** optimized for cloud professionals
-- 📱 **Fully responsive** for desktop and tablet
+-  **Glassmorphism UI** with modern design language
+-  **Click-to-manage** interface for all services
+-  **Real-time metrics** with auto-refresh (15s interval)
+-  **Dark theme** optimized for cloud professionals
+-  **Fully responsive** for desktop and tablet
 
 ---
 
-### 🏗 Architecture
+## Architecture
 - User Browser: http://localhost:5000 
 - Flask Web Server (Dashboard UI)
 - boto3 AWS SDK (Service API Calls)
@@ -82,7 +82,7 @@
 
 ---
 
-### 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -130,7 +130,7 @@ http://localhost:5000
 
 ---
 
-### 📊 Service Matrix
+## Service Matrix
 Berikut adalah 10 layanan AWS yang telah diimplementasikan dalam dashboard ini:
 
 ###	Service	Category		Operations		Status
@@ -145,12 +145,12 @@ Berikut adalah 10 layanan AWS yang telah diimplementasikan dalam dashboard ini:
 9.	Kinesis				Streaming		Create streams, Put records		          ✅
 10.	SES				Email			Send simulated emails			                    ✅
 
-### 🚩 Service Status Legend
+### Service Status Legend
 - Icon	Meaning
 - ✅		Fully implemented & tested
 - 🟡		Partially implemented
 
-### 🛠  Technology Stack
+##  Technology Stack
 Backend
 Technology		Purpose
 Python 3.12		Core programming language
@@ -169,7 +169,7 @@ Docker			Containerization
 Git			Version control
 pip			Package management
 
-### 📁 Project Structure
+## 📁 Project Structure
 ```abhraka-cloud-dashboard/
 ├── src/
 │   ├── __init__.py
@@ -194,10 +194,11 @@ pip			Package management
 └── README.md                       # This file
 ```
 
-### 🔧 Configuration
+## Configuration
+```
 Environment Variables
 Create a .env file:
-
+```
 ### LocalStack Configuration
 ```
 LOCALSTACK_ENDPOINT=http://localhost:4566
@@ -216,7 +217,7 @@ REFRESH_INTERVAL=15
 DEBUG=false
 ```
 
-### 🌤  LocalStack Service Configuration
+### LocalStack Service Configuration
 ### docker-compose.yml
 ```
 version: '3.8'
@@ -232,7 +233,7 @@ services:
       - ./localstack_data:/var/lib/localstack
 ```
 
-### 📈 Monitoring
+## 📈 Monitoring
 Dashboard Metrics
 The dashboard provides real-time monitoring of:
 - Total Services: 10 active AWS services
@@ -243,7 +244,7 @@ The dashboard provides real-time monitoring of:
 Health Check Endpoint
 curl http://localhost:5000/health
 
-### 🤝 Contributing
+## Contributing
 We welcome contributions! Please see our Contributing Guide.
 
 Development Workflow
@@ -256,7 +257,7 @@ Development Workflow
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👨‍🎓 Academic 	Information
+## Academic 	Information
  - Information	Details
  - Course		Cloud Computing
  - Student		Dimas Alfiansyah (alfid814)
