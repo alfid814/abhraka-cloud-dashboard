@@ -21,13 +21,12 @@
 ---
 
 ### 📑 Table of Contents
-
+| | |
 |:---|:---|
 | <div align="right"><strong>🚀 Getting Started</strong></div> | <a href="#-features">Features</a> • <a href="#-architecture">Architecture</a> • <a href="#-quick-start">Quick Start</a> |
 | <div align="right"><strong>🛠️ Technical</strong></div> | <a href="#-service-matrix">Service Matrix</a> • <a href="#-technology-stack">Tech Stack</a> • <a href="#-project-structure">Project Structure</a> |
 | <div align="right"><strong>⚙️ Operations</strong></div> | <a href="#-configuration">Configuration</a> • <a href="#-monitoring">Monitoring</a> |
 | <div align="right"><strong>🤝 Community</strong></div> | <a href="#-contributing">Contributing</a> • <a href="#-license">License</a> |
-
 
 
 ---
