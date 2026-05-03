@@ -108,14 +108,13 @@ http://localhost:5000
 
 ## 🖥️ Dashboard Preview
 
-<p align="center">
-  <img src="docs/screenshot/dashboard-main.png" alt="Abhraka Cloud Dashboard" width="90%">
-  <br>
-  <sub>Dashboard utama dengan glassmorphism UI</sub>
-</p>
+![Abhraka Cloud Dashboard](docs/screenshot/dashboard-main.png)
 
+*Dashboard utama dengan glassmorphism UI*
 
-📊 Service Matrix
+---
+
+### 📊 Service Matrix
 Berikut adalah 10 layanan AWS yang telah diimplementasikan dalam dashboard ini:
 
 #	Service	Category		Operations		Status
@@ -130,12 +129,12 @@ Berikut adalah 10 layanan AWS yang telah diimplementasikan dalam dashboard ini:
 9.	Kinesis				Streaming		Create streams, Put records		✅
 10.	SES				Email			Send simulated emails			✅
 
-🚩Service Status Legend
-Icon	Meaning
-✅		Fully implemented & tested
-🟡		Partially implemented
+## 🚩 Service Status Legend
+- Icon	Meaning
+- ✅		Fully implemented & tested
+- 🟡		Partially implemented
 
-🛠 Technology Stack
+## 🛠  Technology Stack
 Backend
 Technology		Purpose
 Python 3.12		Core programming language
@@ -154,8 +153,7 @@ Docker			Containerization
 Git			Version control
 pip			Package management
 
-📁 Project Structure
-text
+## 📁 Project Structure
 nexus-cloud-dashboard/
 ├── src/
 │   ├── __init__.py
@@ -179,9 +177,10 @@ nexus-cloud-dashboard/
 ├── docker-compose.yml              # Multi-container setup
 └── README.md                       # This file
 
-🔧 Configuration
+## 🔧 Configuration
 Environment Variables
 Create a .env file:
+
 # LocalStack Configuration
 LOCALSTACK_ENDPOINT=http://localhost:4566
 LOCALSTACK_AUTH_TOKEN=your-token-here
@@ -195,7 +194,7 @@ REFRESH_INTERVAL=15
 # Debug Mode
 DEBUG=false
 
-🌤  LocalStack Service Configuration
+## 🌤  LocalStack Service Configuration
 # docker-compose.yml
 version: '3.8'
 services:
@@ -209,7 +208,7 @@ services:
     volumes:
       - ./localstack_data:/var/lib/localstack
 
-📈 Monitoring
+## 📈 Monitoring
 Dashboard Metrics
 The dashboard provides real-time monitoring of:
 - Total Services: 10 active AWS services
@@ -220,7 +219,7 @@ The dashboard provides real-time monitoring of:
 Health Check Endpoint
 curl http://localhost:5000/health
 
-🤝 Contributing
+## 🤝 Contributing
 We welcome contributions! Please see our Contributing Guide.
 
 Development Workflow
@@ -230,13 +229,13 @@ Development Workflow
 4. Push: git push origin feature/amazing-feature
 5. Open a Pull Request
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-👨‍🎓 Academic 	Information
-Information	Details
-Course		Cloud Computing
-Student		Dimas Alfiansyah (alfid814)
-Assignment	Implementation of Cloud Emulator with 10 AWS Services
-Institution	Sultan Agung Islamic University
+## 👨‍🎓 Academic 	Information
+ - Information	Details
+ - Course		Cloud Computing
+ - Student		Dimas Alfiansyah (alfid814)
+ - Assignment	Implementation of Cloud Emulator with 10 AWS Services
+ - Institution	Sultan Agung Islamic University
 <p align="center"> Built with ☁️ and 🐍 by Dimas Alfiansyah <br> <sub>Abhraka Cloud Platform - Infrastructure Control Center</sub> </p>
