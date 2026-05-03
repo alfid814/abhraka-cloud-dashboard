@@ -185,20 +185,26 @@ Environment Variables
 Create a .env file:
 
 ## LocalStack Configuration
+```
 LOCALSTACK_ENDPOINT=http://localhost:4566
 LOCALSTACK_AUTH_TOKEN=your-token-here
 AWS_REGION=us-east-1
-
+```
 ## Dashboard Configuration
+```
 DASHBOARD_PORT=5000
 DASHBOARD_HOST=0.0.0.0
 REFRESH_INTERVAL=15
+```
 
 ## Debug Mode
+```
 DEBUG=false
+```
 
-## 🌤  LocalStack Service Configuration
-# docker-compose.yml
+# 🌤  LocalStack Service Configuration
+## docker-compose.yml
+```
 version: '3.8'
 services:
   localstack:
@@ -210,6 +216,7 @@ services:
       - DEBUG=1
     volumes:
       - ./localstack_data:/var/lib/localstack
+```
 
 ## 📈 Monitoring
 Dashboard Metrics
