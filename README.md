@@ -235,7 +235,7 @@ services:
       - ./localstack_data:/var/lib/localstack
 ```
 
-## 📈 Monitoring
+## Monitoring
 Dashboard Metrics
 The dashboard provides real-time monitoring of:
 - Total Services: 10 active AWS services
@@ -244,7 +244,7 @@ The dashboard provides real-time monitoring of:
 - Auto-refresh: Updates every 15 seconds
 
 ## Contributing
-We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) Guide.
+We welcome contributions! Please see our [Contributing](CONTRIBUTING.md) [Guide](CONTRIBUTING.md).
 
 Development Workflow
 1. Fork the repository
@@ -256,10 +256,10 @@ Development Workflow
 ## 📄 License
 This project is licensed under the MIT License - see the [`LICENSE`](./LICENSE) file for details.
 
-## Academic 	Information
- - Information	Details
- - Course		Cloud Computing
- - Student		Dimas Alfiansyah (alfid814)
- - Assignment	Implementation of Cloud Emulator with 10 AWS Services
- - Institution	Sultan Agung Islamic University
+## Academic Information
+ - Information Details
+ - Course	     :	Cloud Computing
+ - Student     :  Dimas Alfiansyah
+ - Assignment  :	Implementation of Cloud Emulator with 10 AWS Services
+ - Institution :  Sultan Agung Islamic University
 <p align="center"> Built with ☁️ and 🌐 by Dimas Alfiansyah <br> <sub>Abhraka Cloud Platform - Infrastructure Control Center</sub> </p>
