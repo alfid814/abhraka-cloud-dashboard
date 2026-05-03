@@ -20,19 +20,31 @@
 
 ---
 
-## 📑 Table of Contents
+### 📑 Table of Contents
 
-**Getting Started** &nbsp;→&nbsp; <a href="#-features">Features</a> &nbsp;•&nbsp; <a href="#-architecture">Architecture</a> &nbsp;•&nbsp; <a href="#-quick-start">Quick Start</a>
+<table>
+  <tr>
+    <td width="20%" align="right"><strong>🚀 Getting Started</strong></td>
+    <td width="80%"><a href="#-features">Features</a> • <a href="#-architecture">Architecture</a> • <a href="#-quick-start">Quick Start</a></td>
+  </tr>
+  <tr>
+    <td align="right"><strong>🛠️ Technical</strong></td>
+    <td><a href="#-service-matrix">Service Matrix</a> • <a href="#-technology-stack">Tech Stack</a> • <a href="#-project-structure">Structure</a></td>
+  </tr>
+  <tr>
+    <td align="right"><strong>⚙️ Operations</strong></td>
+    <td><a href="#-configuration">Configuration</a> • <a href="#-monitoring">Monitoring</a></td>
+  </tr>
+  <tr>
+    <td align="right"><strong>🤝 Community</strong></td>
+    <td><a href="#-contributing">Contributing</a> • <a href="#-license">License</a></td>
+  </tr>
+</table>
 
-**Technical** &nbsp;→&nbsp; <a href="#-service-matrix">Service Matrix</a> &nbsp;•&nbsp; <a href="#-technology-stack">Tech Stack</a> &nbsp;•&nbsp; <a href="#-project-structure">Structure</a>
-
-**Operations** &nbsp;→&nbsp; <a href="#-configuration">Configuration</a> &nbsp;•&nbsp; <a href="#-monitoring">Monitoring</a>
-
-**Community** &nbsp;→&nbsp; <a href="#-contributing">Contributing</a> &nbsp;•&nbsp; <a href="#-license">License</a>
 
 ---
 
-## 🎯 Features
+### 🎯 Features
 
 ### Core Capabilities
 
@@ -58,7 +70,7 @@
 
 ---
 
-## 🏗 Architecture
+### 🏗 Architecture
 - User Browser: http://localhost:5000 
 - Flask Web Server (Dashboard UI)
 - boto3 AWS SDK (Service API Calls)
@@ -67,7 +79,7 @@
 
 ---
 
-## 🚀 Quick Start
+### 🚀 Quick Start
 
 ### Prerequisites
 
@@ -107,7 +119,7 @@ http://localhost:5000
 ```
 
 
-## 🖥️ Dashboard Preview
+### 🖥️ Dashboard Preview
 
 ![Abhraka Cloud Dashboard](docs/screenshot/dashboard-main.png)
 
@@ -115,7 +127,7 @@ http://localhost:5000
 
 ---
 
-## 📊 Service Matrix
+### 📊 Service Matrix
 Berikut adalah 10 layanan AWS yang telah diimplementasikan dalam dashboard ini:
 
 ###	Service	Category		Operations		Status
@@ -130,12 +142,12 @@ Berikut adalah 10 layanan AWS yang telah diimplementasikan dalam dashboard ini:
 9.	Kinesis				Streaming		Create streams, Put records		          ✅
 10.	SES				Email			Send simulated emails			                    ✅
 
-## 🚩 Service Status Legend
+### 🚩 Service Status Legend
 - Icon	Meaning
 - ✅		Fully implemented & tested
 - 🟡		Partially implemented
 
-## 🛠  Technology Stack
+### 🛠  Technology Stack
 Backend
 Technology		Purpose
 Python 3.12		Core programming language
@@ -154,7 +166,7 @@ Docker			Containerization
 Git			Version control
 pip			Package management
 
-## 📁 Project Structure
+### 📁 Project Structure
 ```nexus-cloud-dashboard/
 ├── src/
 │   ├── __init__.py
@@ -179,7 +191,7 @@ pip			Package management
 └── README.md                       # This file
 ```
 
-## 🔧 Configuration
+### 🔧 Configuration
 Environment Variables
 Create a .env file:
 
@@ -201,7 +213,7 @@ REFRESH_INTERVAL=15
 DEBUG=false
 ```
 
-## 🌤  LocalStack Service Configuration
+### 🌤  LocalStack Service Configuration
 ### docker-compose.yml
 ```
 version: '3.8'
@@ -217,7 +229,7 @@ services:
       - ./localstack_data:/var/lib/localstack
 ```
 
-## 📈 Monitoring
+### 📈 Monitoring
 Dashboard Metrics
 The dashboard provides real-time monitoring of:
 - Total Services: 10 active AWS services
@@ -228,7 +240,7 @@ The dashboard provides real-time monitoring of:
 Health Check Endpoint
 curl http://localhost:5000/health
 
-## 🤝 Contributing
+### 🤝 Contributing
 We welcome contributions! Please see our Contributing Guide.
 
 Development Workflow
