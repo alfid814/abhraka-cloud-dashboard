@@ -151,23 +151,25 @@ Berikut adalah 10 layanan AWS yang telah diimplementasikan dalam dashboard ini:
 - 🟡		Partially implemented
 
 ##  Technology Stack
-Backend
-Technology		Purpose
-Python 3.12		Core programming language
-Flask			Web framework
-boto3			AWS SDK for Python
-LocalStack 		AWS cloud emulator
-Frontend
-Technology		Purpose
-HTML5			Structure
-CSS3			Styling with Glassmorphism
-JavaScript (ES6)	Interactivity
-Google Fonts (Inter)	Typography
-DevOps
-Tool			Purpose
-Docker			Containerization
-Git			Version control
-pip			Package management
+| Backend Technology  |		       	 Purpose 		 |
+|---------------------|--------------------------------------------------|
+| **Python 3.12** 	      | Core programming language       |
+| **Flask**      | Web framework |
+| **boto3** 	      | AWS SDK for Python          |
+| **LocalStack**       | AWS cloud emulator      |
+
+| Frontend Technology       |		       	 Purpose 		 |
+|---------------------------|--------------------------------------------------|
+| **HTML5**                 | Structure        |
+| **CSS3**                  | Styling with Glassmorphism              |
+| **JavaScript (ES6)**      | Interactivity               |
+| **Google Fonts (Inter)**  | Typography                   |
+
+|    DevOps Tool      |		       	 Purpose 		 |
+|---------------------------|--------------------------------------------------|
+| **Docker**           | Containerization                             |
+| **Git**           | Version control                             |
+| **pip**           | Package management                             |
 
 ### 📁 Project Structure
 ```abhraka-cloud-dashboard/
