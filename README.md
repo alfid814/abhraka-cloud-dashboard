@@ -243,11 +243,8 @@ The dashboard provides real-time monitoring of:
 - Active Resources: Buckets, queues, tables, functions, secrets
 - Auto-refresh: Updates every 15 seconds
 
-Health Check Endpoint
-curl http://localhost:5000/health
-
 ## Contributing
-We welcome contributions! Please see our Contributing Guide.
+We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) Guide.
 
 Development Workflow
 1. Fork the repository
@@ -257,7 +254,7 @@ Development Workflow
 5. Open a Pull Request
 
 ## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [`LICENSE`](./LICENSE) file for details.
 
 ## Academic 	Information
  - Information	Details
