@@ -20,18 +20,22 @@
 
 ---
 
-## 📋 Table of Contents
+## 📑 Table of Contents
 
-- [🎯 Features](#-features)
-- [🏗 Architecture](#-architecture)
-- [🚀 Quick Start](#-quick-start)
-- [📊 Service Matrix](#-service-matrix)
-- [🛠 Technology Stack](#-technology-stack)
-- [📁 Project Structure](#-project-structure)
-- [🔧 Configuration](#-configuration)
-- [📈 Monitoring](#-monitoring)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
+<p align="center">
+  <a href="#-features"><img src="https://img.shields.io/badge/Features-✨-8A2BE2?style=flat-square"></a>
+  <a href="#-architecture"><img src="https://img.shields.io/badge/Architecture-🏗️-FF9900?style=flat-square"></a>
+  <a href="#-quick-start"><img src="https://img.shields.io/badge/Quick_Start-🚀-3776AB?style=flat-square"></a>
+  <a href="#-service-matrix"><img src="https://img.shields.io/badge/Service_Matrix-📊-00FF00?style=flat-square"></a>
+  <br>
+  <a href="#-technology-stack"><img src="https://img.shields.io/badge/Tech_Stack-🛠️-FF0000?style=flat-square"></a>
+  <a href="#-project-structure"><img src="https://img.shields.io/badge/Project_Structure-📁-orange?style=flat-square"></a>
+  <a href="#-configuration"><img src="https://img.shields.io/badge/Configuration-🔧-yellow?style=flat-square"></a>
+  <a href="#-monitoring"><img src="https://img.shields.io/badge/Monitoring-📈-blue?style=flat-square"></a>
+  <br>
+  <a href="#-contributing"><img src="https://img.shields.io/badge/Contributing-🤝-purple?style=flat-square"></a>
+  <a href="#-license"><img src="https://img.shields.io/badge/License-📄-green?style=flat-square"></a>
+</p>
 
 ---
 
@@ -67,6 +71,8 @@
 - boto3 AWS SDK (Service API Calls)
 - LocalStack Container: S3-SQS-SNS-DB-Lambda-API-CW-Kinesis-SES-SM
 - Docker Desktop (Container Runtime)
+
+---
 
 ## 🚀 Quick Start
 
