@@ -108,8 +108,11 @@ http://localhost:5000
 
 ## 🖥️ Dashboard Preview
 
-![Abhraka Cloud Dashboard](docs/screenshot/dashboard-main.png)
-*Dashboard utama dengan glassmorphism UI*
+<p align="center">
+  <img src="docs/screenshot/dashboard-main.png" alt="Abhraka Cloud Dashboard" width="90%">
+  <br>
+  <sub>Dashboard utama dengan glassmorphism UI</sub>
+</p>
 
 
 📊 Service Matrix
