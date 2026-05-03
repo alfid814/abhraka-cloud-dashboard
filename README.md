@@ -35,11 +35,11 @@
     </td>
     <td width="50%">
       <ul>
-        <li><a href="#-project-structure">📁 Project Structure</a></li>
+        <li><a href="#-project-structure"> Project Structure</a></li>
         <li><a href="#-configuration"> Configuration</a></li>
         <li><a href="#-monitoring"> Monitoring</a></li>
         <li><a href="#-contributing"> Contributing</a></li>
-        <li><a href="#-license">📄 License</a></li>
+        <li><a href="#-license"> License</a></li>
       </ul>
     </td>
   </tr>
@@ -169,7 +169,7 @@ Docker			Containerization
 Git			Version control
 pip			Package management
 
-## 📁 Project Structure
+### 📁 Project Structure
 ```abhraka-cloud-dashboard/
 ├── src/
 │   ├── __init__.py
@@ -194,7 +194,7 @@ pip			Package management
 └── README.md                       # This file
 ```
 
-## Configuration
+### Configuration
 ```
 Environment Variables
 Create a .env file:
