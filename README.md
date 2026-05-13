@@ -101,7 +101,7 @@ git clone https://github.com/Alfid/abhraka-cloud-dashboard.git
 cd abhraka-cloud-dashboard
 
 # Setup virtual environment
-python3 -m venv venv
+python3 -m venv myenv
 source myenv/bin/activate
 
 # Install dependencies
